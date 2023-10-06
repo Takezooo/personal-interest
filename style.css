@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.ca{
+    background: transparent;
+    width: 220px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 5%;
+
+}
+
+.c-img{
+    display: flex;
+    background: transparent;
+    width: 220px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 5%;
+}
+
+.dave{
+    background-image: url(assets/dave.jpg);
+}
+.shew{
+    background-image: url(assets/shew.jpg);
+}
+.jeanne{
+    background-image: url(assets/jeanne.jpg);
+}
+.jer{
+    background-image: url(assets/jer.jpg);
+}
