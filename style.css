@@ -1,40 +1,75 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
 body {
-  background-color: #0c1a21;
+  background-color: #fff;
+  padding: 0;
+  margin: 0;
 }
 
 html {
   scroll-behavior: smooth;
 }
 
-p {
-    color: rgb(255, 255, 255);
-  }
-
-a {
-    color: white;
-    text-decoration: none;
-    text-decoration-color: rgb(94, 159, 220);
-  }
-
 .leagueCont {
-  height: 1440px;
-  width: 5080px;
-  margin-top: 5px;
+  height: auto;
+  width: auto;
+  /* margin-top: 5px; */
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  gap: 200px;
   flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+  gap: 70px;
+  
 }
 
 .leagueBanner {
-  height: 200px;
-  width: 200px;
-  border-radius: 75px;
+  width: 550px;
+  height: 718px;
+  margin: 100px auto;
+  background: #0c1a21;
+}
+
+.leagueLogo img{
+  height: 193px;
+  width: 369px;
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: flex-start;
+	align-content: stretch;
+}
+
+.leagueLogo h1{
+  margin: 0;
+  padding: 0;
+  font-family: arial;
+  font-size: 26px;
+  color: #fff;
+  text-align: center;
+}
+
+.leagueArc{
+  width: 550px;
+  height: 718px;
+  margin: 100px auto;
+  background: #0c1a21;
+  position: relative;
+}
+
+.arcLogo img{
+  height: 193px;
+  width: 369px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.leagueArc h1{
+  margin: 0;
+  padding: 0;
+  font-family: arial;
+  font-size: 26px;
+  color: #fff;
+  text-align: center;
 }
