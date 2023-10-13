@@ -38,6 +38,8 @@
     border-radius: 7px;
     height: 400px;
     width: 200px;
+   
+   
     background-image: url('./assets/jinx_card_bg.jpg');
     background-size: 250% 100%;
     background-position: center;
@@ -69,6 +71,14 @@
     justify-content: flex-start;
     gap: 20px;
     height: 100vh;
+
+
+    /*bg image to di ko alam if goods*/
+
+    /*background-image: url(assets/katbg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;*/
   }
   
   .champtitle {
@@ -113,53 +123,63 @@
     object-fit: cover;
   }
   
-  .icon-container {
+  /*kay lulu*/
+  .LULU {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    height: 100vh;
+
+    /*bg image, di ko lang alam if goods */
+
+    /*background-image: url(assets/naglolona.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;*/
+
+  }
+  
+  .champtitle-lulu {
+    text-align: center;
+  }
+  
+  .champtitle-lulu h1 {
+    font-family: 'Sedgwick Ave', cursive;
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    background: linear-gradient(to right, rgb(211, 67, 103), #ff06b4);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  
+  .s-con-container-lulu {
+    margin-top: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 20px;
-    padding: 20px;
-    background-color: #000000;
-    border: 2px solid #000000;
-    border-radius: 10px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    gap: 50px;
   }
   
-  .icon-con {
-    position: relative;
+  .s-con-lulu {
+    height: 400px;
+    width: 200px;
+    border: 3px solid #DEC87A;
+    border-radius: 7px;
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   
-  .icon-con img {
-    width: 50px;
-    height: auto;
-    transition: transform 0.3s ease-in-out;
+  .s-con-lulu img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
-  
-  .icon-con img:hover {
-    transform: scale(1.2);
-  }
-  
-  .icon-con::after {
-    content: attr(data-tooltip);
-    position: absolute;
-    bottom: -30px;
-    left: 50%;
-    transform: translateX(-50%);
-    white-space: nowrap;
-    background-color: #333;
-    color: #fff;
-    padding: 5px 10px;
-    border-radius: 4px;
-    font-size: 12px;
-    opacity: 0;
-    pointer-events: none;
-    transition: opacity 0.3s ease-in-out;
-  }
-  
-  .icon-con:hover::after {
-    opacity: 1;
-  }
-  
-  
   
