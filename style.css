@@ -5,7 +5,7 @@
   padding: 0;
 }
 
-body{
+body {
   background: #000;
 }
 
@@ -48,29 +48,29 @@ body{
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
- #jinx-box {
-  background-image: url('./assets/card/jinx.jpg');
-} 
+#jinx-box {
+  background-image: url("./assets/card/jinx.jpg");
+}
 
 #heimmer-box {
-  background-image: url('./assets/card/heimmer.jpg');
-} 
+  background-image: url("./assets/card/heimmer.jpg");
+}
 
 #kata-box {
-  background-image: url('./assets/card/katarina.jpg');
-} 
+  background-image: url("./assets/card/katarina.jpg");
+}
 
 #lulu-box {
-  background-image: url('./assets/card/lulu.jpg');
-} 
+  background-image: url("./assets/card/lulu.jpg");
+}
 
 #jinx-box:hover,
 #heimmer-box:hover,
 #kata-box:hover,
-#lulu-box:hover{
+#lulu-box:hover {
   transition: all 0.2s ease;
   border: 4px solid #fff9e3;
 }
@@ -83,7 +83,7 @@ body{
   font-size: 12px;
 }
 
-.champ-box-back h1{
+.champ-box-back h1 {
   font-size: 18px;
 }
 
@@ -112,11 +112,10 @@ body{
   justify-content: center;
   align-items: center;
   gap: 70px;
-  
 }
 
 .leagueBanner,
-.leagueArc{
+.leagueArc {
   width: 400px;
   height: 500px;
   margin-top: 100px;
@@ -133,12 +132,12 @@ body{
   padding: 50px;
 }
 
-.leagueBanner img{
+.leagueBanner img {
   height: 25%;
   width: 50%;
 }
 
-.leagueArc img{
+.leagueArc img {
   margin-top: 25px;
   height: 15%;
   width: 70%;
@@ -151,7 +150,7 @@ body{
   align-items: center;
   gap: 40px;
   background-image: url(./assets/jinxBG.jpg);
-  background-size: cover; 
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -161,7 +160,6 @@ body{
   font-family: "Rock Salt", cursive;
   font-size: 50px;
   font-weight: bold;
-  letter-spacing: 3px;
   color: #ea146f;
 }
 
@@ -172,21 +170,14 @@ body{
   align-items: center;
   justify-content: center;
   gap: 50px;
+  padding-bottom: 50px;
 }
 
-.jinx-container img,
-.heim-container img{
+.jinx-container img {
   height: 450px;
   width: 250px;
   border-radius: 7px;
-}
-
-.jinx-container img{
-  border: solid 2px #ea146f;
-}
-
-.heim-container img{
-  border: solid 2px #f79062;
+  border: solid 3px #ea146f;
 }
 
 /*heim*/
@@ -217,123 +208,88 @@ body{
   align-items: center;
   justify-content: center;
   gap: 50px;
+  padding-bottom: 50px;
 }
 
-  .KATARINA {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 20px;
-    height: 100vh;
+.heim-container img {
+  height: 450px;
+  width: 250px;
+  border-radius: 7px;
+  border: solid 3px #f79062;
+}
 
+/*Katarina*/
+.Katarina {
+  margin: 50px 0 50px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  background-image: url(./assets/katarina-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
-    /*bg image to di ko alam if goods*/
+.Katarina h1 {
+  margin-top: 100px;
+  font-family: "Rock Salt", cursive;
+  font-size: 50px;
+  font-weight: bold;
+  color: #ce0909;
+}
 
-    /*background-image: url(assets/katbg.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;*/
-  }
-  
-  .champtitle {
-    text-align: center;
-  }
-  
-  .champtitle h1 {
-    font-family: 'Sedgwick Ave', cursive;
-    font-size: 50px;
-    font-weight: bold;
-    letter-spacing: 3px;
-    background: linear-gradient(to right, rgb(248, 39, 39), #ce0909);
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-  }
-  
-  .s-con-container {
-    margin-top: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 50px;
-  }
-  
-  .s-con {
-    height: 400px;
-    width: 200px;
-    border: 3px solid #DEC87A;
-    border-radius: 7px;
-    transform-style: preserve-3d;
-    transition: transform 0.5s;
-    background-position: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .s-con img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  
-  /*kay lulu*/
-  .LULU {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 20px;
-    height: 100vh;
+.kata-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  padding-bottom: 50px;
+}
 
-    /*bg image, di ko lang alam if goods */
+.kata-container img {
+  height: 450px;
+  width: 250px;
+  border-radius: 7px;
+  border: solid 3px #ce0909;
+}
 
-    /*background-image: url(assets/naglolona.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;*/
+/*Lulu*/
+.Lulu {
+  margin: 50px 0 50px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  background-image: url(./assets/lulu-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
-  }
-  
-  .champtitle-lulu {
-    text-align: center;
-  }
-  
-  .champtitle-lulu h1 {
-    font-family: 'Sedgwick Ave', cursive;
-    font-size: 50px;
-    font-weight: bold;
-    letter-spacing: 3px;
-    background: linear-gradient(to right, rgb(211, 67, 103), #ff06b4);
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-  }
-  
-  .s-con-container-lulu {
-    margin-top: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 50px;
-  }
-  
-  .s-con-lulu {
-    height: 400px;
-    width: 200px;
-    border: 3px solid #DEC87A;
-    border-radius: 7px;
-    transform-style: preserve-3d;
-    transition: transform 0.5s;
-    background-position: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .s-con-lulu img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
+.Lulu h1 {
+  margin-top: 100px;
+  font-family: "Rock Salt", cursive;
+  font-size: 50px;
+  font-weight: bold;
+  color: #ffe600;
+}
+
+.lulu-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  padding-bottom: 50px;
+}
+
+.lulu-container img {
+  height: 450px;
+  width: 250px;
+  border-radius: 7px;
+  border: solid 3px #ffe600;
+}
