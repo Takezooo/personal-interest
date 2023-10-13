@@ -37,14 +37,16 @@ body{
     transition: transform 0.5s;
 }
 
-.jinx-box-front{
+.champ-box-front {
     border-radius: 7px;
     height: 400px;
     width: 200px;
-    background-image: url('./assets/jinx_card_bg.jpg');
-    background-size: 250% 100%;
-    background-position: center;
-    background-repeat: no-repeat ;
+}
+
+.champ-box-front img{
+  height: 400px;
+  width: 200px;
+  border-radius: 10px;
 }
 
 #jinx-box.flipped {
@@ -57,11 +59,11 @@ body{
     background-color: #000;
   }
   
-  .jinx-box-front,
-  .jinx-box-back {
+  .champ-box-front,
+  .champ-box-back {
     backface-visibility: hidden;
   }
   
-  .jinx-box-back {
+  .champ-box-back {
     transform: rotateY(180deg);
   } 

@@ -1,6 +1,6 @@
 // FLIP EFFECT ===========================================
-var front = document.querySelector(".jinx-box-front");
-var back = document.querySelector(".jinx-box-back");
+var front = document.querySelector(".champ-box-front");
+var back = document.querySelector(".champ-box-back");
 var jinxBox = document.querySelector("#jinx-box");
 var heimmerBox = document.querySelector("#heimmer-box");
 
