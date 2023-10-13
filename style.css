@@ -23,12 +23,14 @@ body{
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     gap: 30px;
 }
 
 
 /* CHARACTERS CARD */
-#jinx-box, #heimmer-box{
+#jinx-box, #heimmer-box,
+#kata-box, #lulu-box{
     height: 400px;
     width: 200px;
     border: 3px solid #DEC87A;
@@ -49,12 +51,10 @@ body{
   border-radius: 10px;
 }
 
-#jinx-box.flipped {
-    transform: rotateY(180deg);
-    background-color: #000;
-  }
-
-  #heimmer-box.flipped {
+#jinx-box.flipped,
+#heimmer-box.flipped,
+#kata-box.flipped,
+#lulu-box.flipped {
     transform: rotateY(180deg);
     background-color: #000;
   }
