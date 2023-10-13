@@ -5,10 +5,6 @@
   padding: 0;
 }
 
-body {
-  background-color: #000;
-}
-
 .upper-part {
   height: 100vh;
   width: 100%;
@@ -38,6 +34,10 @@ body {
   width: 200px;
   border: 3px solid #dec87a;
   border-radius: 7px;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   transform-style: preserve-3d;
   transition: transform 1.5s;
   background-size: cover;
@@ -137,4 +137,114 @@ body {
   margin-top: 25px;
   height: 15%;
   width: 70%;
+}
+
+.s-con img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#jinx,
+#heimmer {
+  height: 400px;
+  width: 200px;
+  border: 3px solid #dec87a;
+  border-radius: 7px;
+}
+
+.Jinx {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+  height: 100vh;
+
+  background-image: url(assets/jinxBG.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.champtitle {
+  text-align: center;
+}
+
+.champtitle h1 {
+  font-family: "Rock Salt", cursive;
+  font-size: 50px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  background: #ea146f;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.s-con-container {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.s-con {
+  background-color: #000;
+}
+
+/*heim*/
+.Heim {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+  height: 100vh;
+
+  background-image: url(assets/heimmerdingerBG.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.champtitle-Heim {
+  text-align: center;
+}
+
+.champtitle-Heim h1 {
+  font-family: "Rock Salt", cursive;
+  font-size: 50px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  background: #f79062;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.s-con-container-heim {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.s-con-heim {
+  height: 400px;
+  width: 200px;
+  border: 3px solid #dec87a;
+  border-radius: 7px;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.s-con-heim img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
