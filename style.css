@@ -99,3 +99,68 @@ body {
 .champ-box-back {
   transform: rotateY(180deg);
 }
+
+.leagueCont {
+  height: auto;
+  width: auto;
+  /* margin-top: 5px; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+  gap: 70px;
+  
+}
+
+.leagueBanner {
+  width: 550px;
+  height: 718px;
+  margin: 100px auto;
+  background: #0c1a21;
+}
+
+.leagueLogo img{
+  height: 193px;
+  width: 369px;
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: flex-start;
+	align-content: stretch;
+}
+
+.leagueLogo h1{
+  margin: 0;
+  padding: 0;
+  font-family: arial;
+  font-size: 26px;
+  color: #fff;
+  text-align: center;
+}
+
+.leagueArc{
+  width: 550px;
+  height: 718px;
+  margin: 100px auto;
+  background: #0c1a21;
+  position: relative;
+}
+
+.arcLogo img{
+  height: 193px;
+  width: 369px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.leagueArc h1{
+  margin: 0;
+  padding: 0;
+  font-family: arial;
+  font-size: 26px;
+  color: #fff;
+  text-align: center;
