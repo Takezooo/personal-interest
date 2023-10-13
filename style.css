@@ -1,11 +1,103 @@
-body {
-  background-color: #fff;
-  padding: 0;
+@import url(https://fonts.bunny.net/css?family=poppins:100,200,300,400,500,600,700,800,900);
+
+* {
   margin: 0;
+  padding: 0;
 }
 
-html {
-  scroll-behavior: smooth;
+body {
+  background-color: #000;
+}
+
+.upper-part {
+  height: 100vh;
+  width: 100%;
+  background-image: url("./assets/darius_bg.jpg");
+  background-size: 100%;
+  background-position: 30% 5%;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+}
+
+.character-description {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+/* CHARACTERS CARD */
+#jinx-box,
+#heimmer-box,
+#kata-box,
+#lulu-box {
+  height: 400px;
+  width: 200px;
+  border: 3px solid #dec87a;
+  border-radius: 7px;
+  transform-style: preserve-3d;
+  transition: transform 1.5s;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: 'Poppins', sans-serif;
+}
+
+ #jinx-box {
+  background-image: url('./assets/card/jinx.jpg');
+} 
+
+#heimmer-box {
+  background-image: url('./assets/card/heimmer.jpg');
+} 
+
+#kata-box {
+  background-image: url('./assets/card/katarina.jpg');
+} 
+
+#lulu-box {
+  background-image: url('./assets/card/lulu.jpg');
+} 
+
+#jinx-box:hover,
+#heimmer-box:hover,
+#kata-box:hover,
+#lulu-box:hover{
+  transition: all 0.2s ease;
+  border: 4px solid #fff9e3;
+}
+
+.champ-box-back {
+  margin-top: 20px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 10px;
+  font-size: 12px;
+}
+
+.champ-box-back h1{
+  font-size: 18px;
+}
+
+#jinx-box.flipped,
+#heimmer-box.flipped,
+#kata-box.flipped,
+#lulu-box.flipped {
+  transform: rotateY(180deg);
+  padding: 20px;
+  transition: transform 1.5s;
+}
+
+.champ-box-front,
+.champ-box-back {
+  backface-visibility: hidden;
+}
+
+.champ-box-back {
+  transform: rotateY(180deg);
 }
 
 .leagueCont {
@@ -72,4 +164,3 @@ html {
   font-size: 26px;
   color: #fff;
   text-align: center;
-}
