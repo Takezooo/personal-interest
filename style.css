@@ -1,67 +1,101 @@
-*{
-    margin: 0;
-    padding: 0;
+@import url(https://fonts.bunny.net/css?family=poppins:100,200,300,400,500,600,700,800,900);
+
+* {
+  margin: 0;
+  padding: 0;
 }
 
-body{
-    background-color: #000;
+body {
+  background-color: #000;
 }
 
-.upper-part{
-    height:100vh;
-    width: 100%;
-    background-image: url('./assets/darius_bg.jpg');
-    background-size: 100%;
-    background-position: 30% 5%;
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: center;
+.upper-part {
+  height: 100vh;
+  width: 100%;
+  background-image: url("./assets/darius_bg.jpg");
+  background-size: 100%;
+  background-position: 30% 5%;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
 }
 
-.character-description{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
+.character-description {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
 }
-
 
 /* CHARACTERS CARD */
-#jinx-box, #heimmer-box{
-    height: 400px;
-    width: 200px;
-    border: 3px solid #DEC87A;
-    border-radius: 7px;
-    transform-style: preserve-3d;
-    transition: transform 0.5s;
+#jinx-box,
+#heimmer-box,
+#kata-box,
+#lulu-box {
+  height: 400px;
+  width: 200px;
+  border: 3px solid #dec87a;
+  border-radius: 7px;
+  transform-style: preserve-3d;
+  transition: transform 1.5s;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: 'Poppins', sans-serif;
 }
 
-.jinx-box-front{
-    border-radius: 7px;
-    height: 400px;
-    width: 200px;
-    background-image: url('./assets/jinx_card_bg.jpg');
-    background-size: 250% 100%;
-    background-position: center;
-    background-repeat: no-repeat ;
+ #jinx-box {
+  background-image: url('./assets/card/jinx.jpg');
+} 
+
+#heimmer-box {
+  background-image: url('./assets/card/heimmer.jpg');
+} 
+
+#kata-box {
+  background-image: url('./assets/card/katarina.jpg');
+} 
+
+#lulu-box {
+  background-image: url('./assets/card/lulu.jpg');
+} 
+
+#jinx-box:hover,
+#heimmer-box:hover,
+#kata-box:hover,
+#lulu-box:hover{
+  transition: all 0.2s ease;
+  border: 4px solid #fff9e3;
 }
 
-#jinx-box.flipped {
-    transform: rotateY(180deg);
-    background-color: #000;
-  }
+.champ-box-back {
+  margin-top: 20px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 10px;
+  font-size: 12px;
+}
 
-  #heimmer-box.flipped {
-    transform: rotateY(180deg);
-    background-color: #000;
-  }
-  
-  .jinx-box-front,
-  .jinx-box-back {
-    backface-visibility: hidden;
-  }
-  
-  .jinx-box-back {
-    transform: rotateY(180deg);
-  } 
+.champ-box-back h1{
+  font-size: 18px;
+}
+
+#jinx-box.flipped,
+#heimmer-box.flipped,
+#kata-box.flipped,
+#lulu-box.flipped {
+  transform: rotateY(180deg);
+  padding: 20px;
+  transition: transform 1.5s;
+}
+
+.champ-box-front,
+.champ-box-back {
+  backface-visibility: hidden;
+}
+
+.champ-box-back {
+  transform: rotateY(180deg);
+}
