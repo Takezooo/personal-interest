@@ -9,6 +9,13 @@ body {
   background: #000;
 }
 
+.main-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .upper-part {
   height: 100vh;
   width: 100%;

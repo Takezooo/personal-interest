@@ -1,0 +1,36 @@
+@media screen and (max-width: 620px) {
+
+  #jinx-box,
+  #heimmer-box,
+  #kata-box,
+  #lulu-box {
+    height: 300px;
+    width: 150px;
+  }
+
+  .leagueBanner,
+.leagueArc {
+  width: 200px;
+  height: 500px;
+  margin-top: 150px;
+  font-size: 15px;
+}
+
+.Jinx {
+  margin: 50px 0 50px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  background-image: url(./assets/jinxBG.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.Jinx h1, .Heim h1,
+.Katarina h1, .Lulu h1 {
+  font-size: 30px;
+}
+
+}
