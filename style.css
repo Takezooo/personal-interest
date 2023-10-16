@@ -47,14 +47,13 @@ body {
   border: 3px solid #dec87a;
   border-radius: 7px;
   background-position: center;
+  background-repeat: no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
   transform-style: preserve-3d;
   transition: transform 1.5s;
   background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
   font-family: "Poppins", sans-serif;
 }
 
