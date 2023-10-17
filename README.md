@@ -1,6 +1,8 @@
 <h1>Our Personal Interest</h1><br>
 <h3>Devs:</h3>
-- Dave Jornales
-- Jeanne Caballes
-- Jeremy Ricerra
-- Sherwin Mendez
+<ul>
+  <li>Dave Jornales</li>
+  <li>Jeanne Caballes</li>
+  <li>Jeremy Ricerra</li>
+  <li>Sherwin Mendez</li>
+</ul>
