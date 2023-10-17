@@ -1,4 +1,4 @@
-<h1>Our Personal Interest</h1><br>
+<h1>Our Personal Interest</h1>
 <h3>Devs:</h3>
 <ul>
   <li>Dave Jornales</li>
