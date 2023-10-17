@@ -1,4 +1,4 @@
-<h1>Our Personal Interest</h1>h1> <br>
+<h1>Our Personal Interest</h1><br>
 <h3>Devs:</h3>
 - Dave Jornales
 - Jeanne Caballes
