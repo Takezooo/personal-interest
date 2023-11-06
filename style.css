@@ -1,4 +1,4 @@
-@import url(https://fonts.bunny.net/css?family=poppins:100,200,300,400,500,600,700,800,900);
+@import url(https://fonts.bunny.net/css?family=poppins:100,200,300,400,500,600,700,800,900|rock-salt:400);
 
 * {
   margin: 0;
@@ -7,6 +7,13 @@
 
 body {
   background: #000;
+}
+
+.main-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .upper-part {
@@ -40,14 +47,13 @@ body {
   border: 3px solid #dec87a;
   border-radius: 7px;
   background-position: center;
+  background-repeat: no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
   transform-style: preserve-3d;
   transition: transform 1.5s;
   background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
   font-family: "Poppins", sans-serif;
 }
 

@@ -1,0 +1,24 @@
+@media screen and (max-width: 620px) {
+  #jinx-box,
+  #heimmer-box,
+  #kata-box,
+  #lulu-box {
+    height: 300px;
+    width: 150px;
+  }
+
+  .leagueBanner,
+  .leagueArc {
+    width: 200px;
+    height: 500px;
+    margin-top: 150px;
+    font-size: 15px;
+  }
+
+  .Jinx h1,
+  .Heim h1,
+  .Katarina h1,
+  .Lulu h1 {
+    font-size: 30px;
+  }
+}
